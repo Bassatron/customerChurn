@@ -7,8 +7,8 @@ The goal of this work was to see how we could apply machine learning to customer
 
 ## Results
 
-By using machine learning, I was able to significantly reduce the costs associated with customer churn. Without using my models we had an average customer churn cost of $72.46 per customer, and I was able to bring that down by $49.56 to a total cost of $22.90 per customer That represents a 68.4% decrease in customer churn costs, and for an operator with 100,000 customers that means nearly $5MM in savings.
+By using machine learning, I was able to significantly reduce the costs associated with customer churn. Without using my models we had an average customer churn cost of $72.46, and I was able to bring that down by $36.48 to a total cost of $35.98. That represents a ~50% decrease in customer churn costs, and for an operator with 100,000 customers that means over $3.5MM in savings.
 
-My results were a significant improvement over those from the initial article, where their model only lowered costs to $50.30, which entailed a cost savings of $2MM.
+![Cost by Model](https://github.com/Bassatron/customerchurn/blob/master/figures/costs_by_model.png?raw=true)
 
-Through this exercise, I learned that single domain knowledge is not enough to realize the benefits of data science. It's important to know what mechanics we can use to better optimize our models, and realize the full benefits of machine learning. I also learned how to take the results of a model, and using those to make impacts on the business, and drive decision making.
+Using my knowledge of various machine learning techniques, I was able to improve upon the original papers cost savings of $22.15 and increase the savings all the way to $36.48. That's ~60% in extra cost savings and $1.5MM in extra cash given 100,000 customers! This exercise has reinforced that data science isn't just building the best models possible, but taking the insights derived from those models and data, and applying them impact the core business.
